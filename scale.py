@@ -49,7 +49,7 @@ def draw_rectangle(event, x, y, flags, param):
         
         print(f"\n[선택한 사각형 영역]: 시작({ix}, {iy}) -> 끝({fx}, {fy})")
         print("-> 키보드 [Enter] 또는 [Space]를 누르면 원근 변환을 수행합니다.")
-
+x
 def track_coordinates(event, x, y, flags, param):
     """ 2단계: 펴진 맵에서 마우스 실시간 좌표 위치 업데이트 콜백 함수 """
     global mouse_x, mouse_y

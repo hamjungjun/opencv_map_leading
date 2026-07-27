@@ -11,7 +11,7 @@ if not cap.isOpened():
     exit()
 
 # 카메라 해상도 설정
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280) 
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
 # 전역 변수 설정
