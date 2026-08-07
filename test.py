@@ -112,7 +112,7 @@ def detect_reference_square(warped_img, blue_mask):
 # ==========================================
 # 3. 카메라 및 ArUco, UI 창 초기화
 # ==========================================
-CAMERA_INDEX = 1  # 환경에 맞춰 0, 1, 2 중 설정
+CAMERA_INDEX = 0  # 환경에 맞춰 0, 1, 2 중 설정
 
 cap = cv2.VideoCapture(CAMERA_INDEX)
 if not cap.isOpened():
