@@ -8,7 +8,7 @@ import numpy as np
 # 0. 네트워크(UDP) & PID 제어 설정
 # ==========================================
 # 라즈베리파이의 Wi-Fi IP 주소를 입력하세요.
-RASPBERRY_PI_IP = "172.20.10.3"
+RASPBERRY_PI_IP = ""
 UDP_PORT = 8080
 
 # UDP 소켓 생성
